@@ -1,0 +1,138 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 30px 45px 20px 45px;
+  background-color: #ffd900;
+  margin: 0px;
+}
+
+menu {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 0px;
+  margin: 0px;
+}
+
+#texto {
+  background-color: #514988;
+  font-size: 27px;
+  width: 900px;
+  height: 586px;
+  padding: 45px;
+  align-items: center;
+  text-align: center;
+}
+
+#texto h1 {
+  color: #ffd900;
+  font-weight: 700px;
+}
+
+#titulo {
+  font-weight: 700;
+  color: white;
+}
+
+#texto p {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 20px;
+  width: 800px;
+  text-align: center;
+  align-items: center;
+}
+
+.time {
+  width: 1000px;
+  display: grid;
+  grid-auto-flow: column;
+  font-size: 60px;
+  margin-top: -50px;
+  /* margin-bottom: 50px; */
+  padding: 0px 0px 0px 0px;
+  align-items: center;
+  color: #514988;
+  font-weight: 600;
+}
+
+#dia,
+#hora,
+#minuto,
+#segundo {
+  /* padding: 30px 0px 0px 30px; */
+  /* margin: 0px; */
+  align-items: center;
+  text-align: center;
+}
+
+#vidio {
+  align-items: center;
+  text-align: center;
+  padding-right: 160px;
+  margin-top: -59.59px;
+  margin-right: 200px;
+  width: 1000px;
+  cursor: pointer;
+}
+
+#vidio p {
+  font-size: 29px;
+  font-weight: 700;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 250px;
+  color: #e33881;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 45px;
+}
+
+footer h1 {
+  padding: 10px;
+  font-size: 30px;
+  color: #ffd900;
+}
+footer img {
+  cursor: pointer;
+}
+
+#img:hover img {
+  transform: translateY(-10px);
+}
+
+button {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  width: 596px;
+  height: 148px;
+  top: 903px;
+  left: 1004px;
+  margin-left: 300px;
+  margin-top: 90px;
+  border-radius: 10px;
+  opacity: 0px;
+  text-align: center;
+  background-color: #514988;
+  cursor: pointer;
+  box-shadow: 0px 12px 12px rgb(166, 72, 203);
+}
+
+button:hover {
+  color: #ffd900;
+  transform: translateY(-10px);
+}
